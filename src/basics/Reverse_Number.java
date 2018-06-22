@@ -15,6 +15,7 @@ public class Reverse_Number {
 			rev = rev*10+rem;
 			
 		}
+		
 		System.out.println(rev);
 		
 		
