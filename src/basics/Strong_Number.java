@@ -1,10 +1,18 @@
 package basics;
 
+import java.util.Scanner;
+
 public class Strong_Number {
+	
+	private static Scanner sc;
 	
 	public static void main(String[] args) throws Exception {
 		
-		int num=145;
+	    sc = new Scanner(System.in);
+		System.out.println("enter a number to test");
+		int num=sc.nextInt();
+		
+		//int num=145;
 		int sum=0;
 		int temp=num;
 		
@@ -13,7 +21,7 @@ public class Strong_Number {
 			int rem=num%10;
 			num=num/10;
 			int fact=1;
-			for(int i=1;i<rem;i++) {
+			for(int i=1;i<=rem;i++) {
 				fact=fact*i;
 			}
 			

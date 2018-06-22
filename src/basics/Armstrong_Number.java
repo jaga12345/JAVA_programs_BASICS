@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Armstrong_Number {
 	
+	private static Scanner sc;
+
 	public static void main(String[] args) throws Throwable{
 		
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("enter the number you want to test");
 		int num=sc.nextInt();
 		
