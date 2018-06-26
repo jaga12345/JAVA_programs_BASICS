@@ -1,13 +1,16 @@
 package array_programs;
 
-import java.util.ArrayList;
+
+import java.util.LinkedList;
 import java.util.List;
 
 public class List_TO_Array {
 	
 	public static void main(String[] args) {
 		
-		List<String> lst = new ArrayList<String>();
+		List<String> lst = new LinkedList<String>();
+		
+	//	List<String> lst = new ArrayList<String>();
 		
 		lst.add("I");
 		
