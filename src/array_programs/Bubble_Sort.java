@@ -45,7 +45,7 @@ public class Bubble_Sort {
 		
 		bubblesort(arr);
 		
-         for (int i : arr) {
+        for (int i : arr) {
 			
 			System.out.print(i);
 			
