@@ -12,6 +12,8 @@ public class Count_Vowels_Degits_BlankSpaces {
 		
 		String str = sc.nextLine();
 		
+		System.out.println(sc);
+		
 		 int vowel = 0,blank_spaces=0,degits = 0;
 		
 		for (int i = 0; i < str.length(); i++) {
