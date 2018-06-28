@@ -14,19 +14,22 @@ public class Sample_5 {
 				
 				System.out.print(" ");
 				
+				
 			}
 			
-	     for (int j = 0; j < star; j++) {
+			for (int k = 0; k < star; k++) {
 				
 				System.out.println("*");
 				
 			}
+			
+	     
 	     System.out.println();
        }
         
         
-        star--;
-        space++;
+        star++;
+        space--;
 			
 		
 	}
